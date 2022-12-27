@@ -1,0 +1,33 @@
+include_guard()
+
+set(ENGINE_SOURCE_FILES
+	src/build.h
+	src/cache.c
+	src/cache.h
+	src/display.c
+	src/display.h
+	src/draw.c
+	src/draw.h
+dummy_multi.c
+	src/engine.c
+	src/engine.h
+	src/filesystem.c
+	src/filesystem.h
+	src/fixedPoint_math.c
+	src/fixedPoint_math.h
+	src/icon.h
+	src/macos_compat.h
+	src/mmulti.c
+src/mmulti.cpp
+src/mmulti_stable.cpp
+src/mmulti_stable.h
+#src/mmulti_unstable.h
+src/multi.c
+src/network.c
+src/network.h
+	src/platform.h
+	src/tiles.c
+	src/tiles.h
+	src/unix_compat.h
+	src/win32_compat.h
+)
